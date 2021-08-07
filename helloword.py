@@ -26,7 +26,11 @@ def myfunc():
     A= "Khaled"
     C=' '
     B= "Ali"
-myfunc()    
+    a=A.upper()+C.upper()+B.upper()
+myfunc() 
+a = 'khaled ali code'
+# if 'khaled' in a :
+#     print('yes',a[0:5])
 
-print('py',A+C+B)
-
+# print("naie" not in a)
+print(a.split('|'))
