@@ -109,11 +109,20 @@
 # print(mylist)
 
 
-x = ("apple", "banana", "cherry")
-print(x)
-y = list(x)
-print(y)
-y[1] = "kiwi"
-x = tuple(y)
+# x = ("apple", "banana", "cherry")
+# print(x)
+# y = list(x)
+# print(y)
+# y[1] = "kiwi"
+# x = tuple(y)
 
-print(x)
+# print(x)
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+y = list(thistuple)
+print('list',y)
+y.append("orange")
+print(y)
+thistuple = tuple(y)
+print('tuple',thistuple)
